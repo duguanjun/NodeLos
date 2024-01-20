@@ -4,7 +4,7 @@
 
 ## Language
 
-[中文文档](README.md) | [English Docs](README_EN.md)
+ | [English Docs](README_EN.md)
 
 ## Foreword
 
@@ -63,13 +63,13 @@ Anywhere you can connect to the Internet
 ### Forms_of_interaction
 
 ```bash
-curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -en
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -en
 ```
 
 OR
 
 ```bash
-curl -L https://github.com/spiritLHLS/ecs/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -en
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -en
 ```
 
 OR
@@ -81,19 +81,19 @@ bash <(wget -qO- bash.spiritlhl.net/ecs) -en
 ### Forms_of_No-interaction
 
 ```bash
-curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -en -m 1
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -en -m 1
 ```
 
 OR
 
 ```bash
-curl -L https://github.com/spiritLHLS/ecs/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -en -m 1
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -en -m 1
 ```
 
 OR
 
 ```
-curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh
 ```
 
 Download the script file and use something like
@@ -125,7 +125,7 @@ The following is a description of the parameters:
 - Mailbox reachability test on port 25, if a mailbox is reachable, then you can build a post office.
 
 ```bash
-bash <(wget -qO- --no-check-certificate https://gitlab.com/spiritysdx/za/-/raw/main/qzcheck.sh)
+bash <(wget -qO- --no-check-certificate https://github.com/duguanjun/NodeLos/tree/main/qzcheck.sh)
 ```
 
 OR
@@ -137,7 +137,7 @@ bash <(wget -qO- bash.spiritlhl.net/ecs-ipcheck)
 OR
 
 ```bash
-bash <(wget -qO- --no-check-certificate https://raw.githubusercontent.com/spiritLHLS/ecs/main/qzcheck.sh)
+bash <(wget -qO- --no-check-certificate https://github.com/duguanjun/NodeLos/tree/main/qzcheck.sh)
 ```
 
 ## Fusion_Monster_Description
@@ -214,7 +214,7 @@ VPS test, VPS speed test, VPS comprehensive performance test, VPS backhaul line 
 
 ### https://t.me/vps_reviews
 
-**[Back to top](https://github.com/spiritLHLS/ecs/blob/main/README_EN.md#top)**
+**[Back to top](https://github.com/duguanjun/NodeLos/tree/main/README_EN.md#top)**
 
 # Stargazers_over_time
 
