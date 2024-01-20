@@ -4,7 +4,7 @@
 
 ## Language
 
- | [English Docs](README_EN.md)
+ English Docs
 
 ## Foreword
 
