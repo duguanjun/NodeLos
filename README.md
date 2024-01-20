@@ -118,7 +118,7 @@ curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod
 或通过
 
 ```
-curl -L https://github.com/duguanjun/NodeLos/tree/main/main/ecs.sh -o ecs.sh && chmod +x ecs.sh
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh
 ```
 
 下载文件后使用类似
@@ -152,7 +152,7 @@ bash ecs.sh -m 1
 - 含25端口的邮箱可达性检测，如果某个邮箱可达，则可搭建邮局
 
 ```bash
-bash <(wget -qO- --no-check-certificate https://github.com/duguanjun/NodeLos/tree/main/main/qzcheck.sh)
+bash <(wget -qO- --no-check-certificate https://github.com/duguanjun/NodeLos/tree/main/qzcheck.sh)
 ```
 
 或
@@ -164,7 +164,8 @@ bash <(wget -qO- bash.spiritlhl.net/ecs-ipcheck)
 或
 
 ```bash
-bash <(wget -qO- --no-check-certificate https://github.com/duguanjun/NodeLos/tree/main/main/qzcheck.sh)
+bash <(wget -qO- --no-check-certificate https://github.com/duguanjun/NodeLos/tree/main
+/qzcheck.sh)
 ```
 
 ## 融合怪说明
@@ -177,7 +178,8 @@ bash <(wget -qO- --no-check-certificate https://github.com/duguanjun/NodeLos/tre
 
 融合怪的完整版和精简版运行完毕会自动上传结果到pastebin并回传分享链接，如果测一半想要退出，那么按```Ctrl+C```同时按下可终止测试，此时会自动退出删除残余文件
 
-最烂机器测试的例子(跑了47分钟一样测完)：[跳转](https://github.com/spiritLHLS/ecs/blob/main/lowpage/README.md)
+最烂机器测试的例子(跑了47分钟一样测完)：[跳转](https://github.com/duguanjun/NodeLos/tree/main
+/lowpage/README.md)
 
 使用**CDN**已支持**国内**和**国外**加速服务器环境安装和预制文件下载，但国内受CDN连通性或国内机器带宽大小的限制加载可能会慢很多
 
@@ -220,11 +222,11 @@ VPS测试，VPS测速，VPS综合性能测试，VPS回程线路测试，VPS流�
 
 </details>
 
-**[返回顶部](https://github.com/spiritLHLS/ecs#top)**
+**[返回顶部](https://github.com/duguanjun/NodeLos/tree/main/ecs#top)**
 
 ## 融合怪功能
 
-- [x] 自由组合测试方向和单项测试以及合集收录第三方脚本，融合怪各项测试均自优化修复过，与原始脚本均不同
+- [x] 自由组合测试方向和单项测试以及合集收录第三方本，融合怪各项测试均自优化修复过，与原始脚本均不同
 - [x] 基础信息查询--感谢[bench.sh](https://github.com/teddysun/across/blob/master/bench.sh)、[superbench.sh](https://www.oldking.net/350.html)、[yabs](https://github.com/masonr/yet-another-bench-script)、[lemonbench](https://github.com/LemonBench/LemonBench)开源，本人整理修改优化，同原版均不一致
 - [x] CPU测试--感谢[lemonbench](https://github.com/LemonBench/LemonBench)和[yabs](https://github.com/masonr/yet-another-bench-script)开源，本人整理修改优化
 - [x] 内存测试--感谢[lemonbench](https://github.com/LemonBench/LemonBench)开源，本人整理修改优化
