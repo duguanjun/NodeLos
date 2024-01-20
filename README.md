@@ -88,13 +88,13 @@ https://github.com/spiritLHLS/one-click-installation-script
 ### 交互形式
 
 ```bash
-curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
 ```
 
 或
 
 ```bash
-curl -L https://github.com/spiritLHLS/ecs/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
 ```
 
 或
@@ -106,19 +106,19 @@ bash <(wget -qO- bash.spiritlhl.net/ecs)
 ### 无交互形式-参数模式
 
 ```bash
-curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -m 1
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -m 1
 ```
 
 或
 
 ```bash
-curl -L https://github.com/spiritLHLS/ecs/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -m 1
+curl -L https://github.com/duguanjun/NodeLos/tree/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh -m 1
 ```
 
 或通过
 
 ```
-curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh
+curl -L https://github.com/duguanjun/NodeLos/tree/main/main/ecs.sh -o ecs.sh && chmod +x ecs.sh
 ```
 
 下载文件后使用类似
@@ -152,7 +152,7 @@ bash ecs.sh -m 1
 - 含25端口的邮箱可达性检测，如果某个邮箱可达，则可搭建邮局
 
 ```bash
-bash <(wget -qO- --no-check-certificate https://gitlab.com/spiritysdx/za/-/raw/main/qzcheck.sh)
+bash <(wget -qO- --no-check-certificate https://github.com/duguanjun/NodeLos/tree/main/main/qzcheck.sh)
 ```
 
 或
@@ -164,7 +164,7 @@ bash <(wget -qO- bash.spiritlhl.net/ecs-ipcheck)
 或
 
 ```bash
-bash <(wget -qO- --no-check-certificate https://raw.githubusercontent.com/spiritLHLS/ecs/main/qzcheck.sh)
+bash <(wget -qO- --no-check-certificate https://github.com/duguanjun/NodeLos/tree/main/main/qzcheck.sh)
 ```
 
 ## 融合怪说明
